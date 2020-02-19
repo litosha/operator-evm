@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+.canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.gameover {
+    display: none;
+}
+
+.wrapper_score {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container > *:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.container button {
+    border: none;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.container button:hover {
+    opacity: 0.6;
+}
+
+.second_back_button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s linear;
+    font-size: 15px;
+}
+
+
+body {
+    background: #000000;
+}
+
+.game_button {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: #7b1cb4;
+    cursor: pointer;
+    width: 20vw;
+    height: 8vh;
+    margin-top: 80vh;
+    margin-left: 25vw;
+    box-shadow: 0 -4px #30164e inset;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.game_button:hover {
+    background: #810004;
+    box-shadow: 0 -4px #4c0004 inset;
+}
+
+.text_project {
+    position: absolute;
+    max-width: 4000px;
+    max-height: 2000px;
+    height: 6vw;
+    width: 16vw;
+    margin-top: 64vh;
+    margin-left: 42vw;
+    margin-right: 42vw;
+
+}
+
+.coming_soon {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: #7b1cb4;
+    cursor: pointer;
+    width: 20vw;
+    height: 8vh;
+    margin-top: 80vh;
+    margin-left: 55vw;
+    box-shadow: 0 -4px #30164e inset;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.coming_soon:hover {
+    background: #810004;
+    box-shadow: 0 -4px #4c0004 inset;
+}
+
+.logo {
+    max-width: 4000px;
+    max-height: 2000px;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.back_ground {
+    max-width: 100vw;
+    max-height: 48vw;
+}
+
+.text_button {
+    width: 14vw;
+    height: 4vw;
+
+}
+
+.input_field {
+    display: flex;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.input_field button{
+    margin-top: 0 !important;
+}
+
+.input_field input {
+    padding: 5px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: gray;
+    border-bottom: 1px solid black;
+}

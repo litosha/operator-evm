@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" href="styles/common.css">
+</head>
+<body>
+    <div class="wrapper_score">
+        <p>Username: <span class="username">NoName</span></p>
+        <p>Time: <span class="time">00:00</span></p>
+        <p>Score: <span class="score">0</span></p>
+    </div>
+
+    <div class="canvas"></div>
+
+    <div class="wrapper gameover">
+        <div class="container">
+            <h2>Вы проиграли</h2>
+            <p>Ваш результат: <span class="gameover_score">0</span></p>
+            <table class="score_table">
+                <tbody class="tbody">
+                    <tr>
+                        <th>№</th>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Score</th>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="gameover_button">Начать заново</button>
+        </div>
+    </div>
+
+    <div class="wrapper login">
+        <div class="container">
+            <h2>Sign in</h2>
+            <div class="input_field">
+                <input type="text" class="login_input" placeholder="Your login:">
+                <button class="login_button">Sign in</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="second_back_button" onclick='location.href="index.html"' >На главную</button>
+
+    <script src="js/config.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/keys.js"></script>
+    <script src="js/graph.js"></script>
+    <script src = "js/includes.js"></script>
+    <script src="js/object.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
